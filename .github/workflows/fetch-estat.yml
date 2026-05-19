@@ -40,6 +40,7 @@ jobs:
           - name: Search latest school tables
         env:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+          run: |
           python scripts/search_latest_school_tables.py
       - name: Check generated files
         run: |
