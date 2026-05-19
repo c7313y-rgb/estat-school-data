@@ -36,7 +36,12 @@ jobs:
           python scripts/fetch_estat_school_data.py
       - name: Find school table candidates
         run: |
-          python scripts/find_school_tables.py
+          python scripts/find_school_tables.py　      
+          - name: Search latest school tables
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: |
+          python scripts/search_latest_school_tables.py
       - name: Check generated files
         run: |
           echo "Current directory:"
