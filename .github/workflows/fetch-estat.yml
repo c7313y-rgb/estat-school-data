@@ -61,6 +61,11 @@ jobs:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/find_prefecture_area_tables.py
+                - name: Inspect priority tables
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: |
+          python scripts/inspect_priority_tables.py
       - name: Check generated files
         run: |
           echo "Current directory:"
