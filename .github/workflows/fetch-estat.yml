@@ -56,7 +56,11 @@ jobs:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/inspect_target_3147060.py
-
+      - name: Find prefecture area tables
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: |
+          python scripts/find_prefecture_area_tables.py
       - name: Check generated files
         run: |
           echo "Current directory:"
