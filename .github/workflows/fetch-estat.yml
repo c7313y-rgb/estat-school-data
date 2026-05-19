@@ -49,6 +49,11 @@ jobs:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/inspect_candidate_tables.py
+                - name: Inspect target 3147060
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: |
+          python scripts/inspect_target_3147060.py
       - name: Check generated files
         run: |
           echo "Current directory:"
