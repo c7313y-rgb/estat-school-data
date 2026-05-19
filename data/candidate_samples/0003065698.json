@@ -1,12 +1,12 @@
 {
   "candidate": {
-    "score": "3",
+    "score": "5",
     "statsDataId": "0003065698",
     "title": "前期課程の都道府県別生徒数別学校数（うち公立　都道府県別）",
     "survey_date": "0",
     "updated_date": "2023-10-25",
     "gov_org": "文部科学省",
-    "matched_search_word": "学校基本調査 都道府県 生徒数",
+    "matched_search_word": "学校基本調査 都道府県別 高等学校 学校数 生徒数",
     "title_score": 3
   },
   "meta_classes": [
@@ -316,7 +316,7 @@
       "RESULT": {
         "STATUS": 0,
         "ERROR_MSG": "正常に終了しました。",
-        "DATE": "2026-05-19T21:59:06.571+09:00"
+        "DATE": "2026-05-19T22:19:38.947+09:00"
       },
       "PARAMETER": {
         "LANG": "J",

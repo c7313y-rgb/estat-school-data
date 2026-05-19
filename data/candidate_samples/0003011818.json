@@ -1,12 +1,12 @@
 {
   "candidate": {
-    "score": "3",
+    "score": "4",
     "statsDataId": "0003011818",
     "title": "7 都道府県別　学校数及び学生数 学校数 政令指定都市別",
     "survey_date": "0",
     "updated_date": "2023-10-25",
     "gov_org": "文部科学省",
-    "matched_search_word": "学校基本調査 都道府県 学生数",
+    "matched_search_word": "学校基本調査 都道府県別 大学 学校数 学生数",
     "title_score": 3
   },
   "meta_classes": [
@@ -166,7 +166,7 @@
       "RESULT": {
         "STATUS": 0,
         "ERROR_MSG": "正常に終了しました。",
-        "DATE": "2026-05-19T21:58:45.994+09:00"
+        "DATE": "2026-05-19T22:19:56.646+09:00"
       },
       "PARAMETER": {
         "LANG": "J",

@@ -1,12 +1,12 @@
 {
   "candidate": {
-    "score": "3",
+    "score": "5",
     "statsDataId": "0003061543",
     "title": "4 都道府県別  児童数別  学校数（うち公立　都道府県別）",
     "survey_date": "200704-200803",
     "updated_date": "2019-10-28",
     "gov_org": "文部科学省",
-    "matched_search_word": "学校基本調査 都道府県 児童数",
+    "matched_search_word": "学校基本調査 都道府県別 小学校 学校数 児童数",
     "title_score": 3
   },
   "meta_classes": [
@@ -310,7 +310,7 @@
       "RESULT": {
         "STATUS": 0,
         "ERROR_MSG": "正常に終了しました。",
-        "DATE": "2026-05-19T21:59:23.293+09:00"
+        "DATE": "2026-05-19T22:20:29.192+09:00"
       },
       "PARAMETER": {
         "LANG": "J",
