@@ -1,3 +1,6 @@
       - name: Find school table candidates
         run: |
           python scripts/find_school_tables.py
+      - name: Find school table candidates
+        run: |
+          python scripts/find_school_tables.py
