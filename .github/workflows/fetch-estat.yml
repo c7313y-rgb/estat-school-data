@@ -51,27 +51,24 @@ jobs:
         run: |
           python scripts/inspect_candidate_tables.py
 
-      - name: Inspect target 3147060
-        env:
-          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
-        run: |
-          python scripts/inspect_target_3147060.py
       - name: Find prefecture area tables
         env:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/find_prefecture_area_tables.py
-                - name: Inspect priority tables
+
+      - name: Inspect priority tables
         env:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/inspect_priority_tables.py
+
       - name: Check generated files
         run: |
           echo "Current directory:"
           pwd
           echo "Files:"
-          find . -maxdepth 3 -type f
+          find . -maxdepth 4 -type f
           echo "Data directory:"
           ls -la data || true
 
