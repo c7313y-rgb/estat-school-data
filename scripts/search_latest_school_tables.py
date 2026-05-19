@@ -15,23 +15,40 @@ OUT_DIR.mkdir(exist_ok=True)
 API_URL = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsList"
 
 SEARCH_WORDS = [
-    "学校基本調査 幼稚園 都道府県",
-    "学校基本調査 小学校 都道府県",
-    "学校基本調査 中学校 都道府県",
-    "学校基本調査 高等学校 都道府県",
-    "学校基本調査 高等専門学校 都道府県",
-    "学校基本調査 大学 都道府県",
-    "学校基本調査 都道府県 学校数",
-    "学校基本調査 都道府県 園児数",
-    "学校基本調査 都道府県 児童数",
-    "学校基本調査 都道府県 生徒数",
-    "学校基本調査 都道府県 学生数",
-    "令和7年度 学校基本調査 都道府県",
-    "令和6年度 学校基本調査 都道府県",
-    "令和5年度 学校基本調査 都道府県",
+    # 令和7年度
+    "令和7年度 学校基本調査 幼稚園 都道府県別",
+    "令和7年度 学校基本調査 小学校 都道府県別",
+    "令和7年度 学校基本調査 中学校 都道府県別",
+    "令和7年度 学校基本調査 高等学校 都道府県別",
+    "令和7年度 学校基本調査 高等専門学校 都道府県別",
+    "令和7年度 学校基本調査 大学 都道府県別",
+
+    # 令和6年度
+    "令和6年度 学校基本調査 幼稚園 都道府県別",
+    "令和6年度 学校基本調査 小学校 都道府県別",
+    "令和6年度 学校基本調査 中学校 都道府県別",
+    "令和6年度 学校基本調査 高等学校 都道府県別",
+    "令和6年度 学校基本調査 高等専門学校 都道府県別",
+    "令和6年度 学校基本調査 大学 都道府県別",
+
+    # 令和5年度
+    "令和5年度 学校基本調査 幼稚園 都道府県別",
+    "令和5年度 学校基本調査 小学校 都道府県別",
+    "令和5年度 学校基本調査 中学校 都道府県別",
+    "令和5年度 学校基本調査 高等学校 都道府県別",
+    "令和5年度 学校基本調査 高等専門学校 都道府県別",
+    "令和5年度 学校基本調査 大学 都道府県別",
+
+    # 表タイトルが年度名を含まない場合に備えた補助検索
+    "学校基本調査 都道府県別 幼稚園 園数 園児数",
+    "学校基本調査 都道府県別 小学校 学校数 児童数",
+    "学校基本調査 都道府県別 中学校 学校数 生徒数",
+    "学校基本調査 都道府県別 高等学校 学校数 生徒数",
+    "学校基本調査 都道府県別 高等専門学校 学校数 学生数",
+    "学校基本調査 都道府県別 大学 学校数 学生数",
 ]
 
-KEYWORDS = [
+IMPORTANT_WORDS = [
     "幼稚園",
     "小学校",
     "中学校",
@@ -39,14 +56,50 @@ KEYWORDS = [
     "高等専門学校",
     "大学",
     "都道府県",
+    "都道府県別",
+    "設置者別",
+    "国立",
+    "公立",
+    "私立",
     "学校数",
     "園数",
-    "学生数",
+    "園児数",
     "児童数",
     "生徒数",
-    "園児数",
+    "学生数",
     "在学者数",
-    "設置者別",
+]
+
+EXCLUDE_WORDS = [
+    "卒業",
+    "進学",
+    "就職",
+    "教員",
+    "職員",
+    "学級",
+    "収入",
+    "支出",
+    "理由",
+    "休学",
+    "年齢",
+    "転入",
+    "転出",
+    "帰国",
+    "専修学校",
+    "各種学校",
+]
+
+OLD_YEAR_WORDS = [
+    "平成20年度",
+    "平成２０年度",
+    "平成19年度",
+    "平成１９年度",
+    "平成18年度",
+    "平成１８年度",
+    "平成17年度",
+    "平成１７年度",
+    "平成16年度",
+    "平成１６年度",
 ]
 
 
@@ -58,6 +111,14 @@ def normalize_title(title):
     return str(title)
 
 
+def to_list(value):
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    return [value]
+
+
 def fetch_stats_list(search_word, start_position=1, limit=100):
     params = {
         "appId": APP_ID,
@@ -67,20 +128,58 @@ def fetch_stats_list(search_word, start_position=1, limit=100):
         "startPosition": start_position,
     }
 
-    response = requests.get(API_URL, params=params, timeout=60)
-    print("searchWord:", search_word)
-    print("status:", response.status_code)
+    max_retries = 5
+    wait_seconds = 10
 
-    response.raise_for_status()
-    return response.json()
+    for attempt in range(1, max_retries + 1):
+        print("=" * 80)
+        print(f"searchWord: {search_word}")
+        print(f"attempt: {attempt}/{max_retries}")
+
+        response = requests.get(API_URL, params=params, timeout=90)
+
+        print("status:", response.status_code)
+        print("head:", response.text[:200])
+
+        if response.status_code in [429, 502, 503, 504]:
+            if attempt < max_retries:
+                print(f"一時的なAPIエラーです。{wait_seconds}秒待って再試行します。")
+                time.sleep(wait_seconds)
+                continue
+
+        response.raise_for_status()
+        return response.json()
+
+    raise RuntimeError(f"e-Stat API取得に失敗しました: {search_word}")
 
 
-def to_list(value):
-    if value is None:
-        return []
-    if isinstance(value, list):
-        return value
-    return [value]
+def title_score(title):
+    title = str(title)
+
+    score = 0
+
+    for word in IMPORTANT_WORDS:
+        if word in title:
+            score += 1
+
+    for word in EXCLUDE_WORDS:
+        if word in title:
+            score -= 3
+
+    # 令和年度を優先
+    if "令和7年度" in title or "令和７年度" in title:
+        score += 10
+    if "令和6年度" in title or "令和６年度" in title:
+        score += 8
+    if "令和5年度" in title or "令和５年度" in title:
+        score += 6
+
+    # 古い平成年度は除外寄り
+    for old in OLD_YEAR_WORDS:
+        if old in title:
+            score -= 20
+
+    return score
 
 
 rows_by_id = {}
@@ -105,16 +204,20 @@ for word in SEARCH_WORDS:
             survey_date = str(t.get("SURVEY_DATE", ""))
             updated_date = str(t.get("UPDATED_DATE", ""))
             gov_org = t.get("GOV_ORG", "")
+
             if isinstance(gov_org, dict):
                 gov_org = gov_org.get("$", "")
 
-            score = sum(1 for kw in KEYWORDS if kw in title)
-
-            # 学校基本調査らしいものだけ残す
-            if score == 0:
+            # 明確に古い平成年度は除外
+            if any(old in title for old in OLD_YEAR_WORDS):
                 continue
 
-            # 同じstatsDataIdは重複保存しない
+            score = title_score(title)
+
+            # 低スコアは保存しない
+            if score <= 0:
+                continue
+
             rows_by_id[stats_data_id] = {
                 "score": score,
                 "statsDataId": stats_data_id,
@@ -125,7 +228,6 @@ for word in SEARCH_WORDS:
                 "matched_search_word": word,
             }
 
-        # 次ページへ
         if len(tables) < limit:
             break
 
@@ -134,10 +236,13 @@ for word in SEARCH_WORDS:
 
 rows = list(rows_by_id.values())
 
-# 新しい更新日を上に、次にスコア順
 rows = sorted(
     rows,
-    key=lambda x: (x["updated_date"], x["score"]),
+    key=lambda x: (
+        int(x["score"]),
+        str(x["updated_date"]),
+        str(x["survey_date"]),
+    ),
     reverse=True
 )
 
