@@ -34,7 +34,9 @@ jobs:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/fetch_estat_school_data.py
-
+      - name: Find school table candidates
+        run: |
+          python scripts/find_school_tables.py
       - name: Check generated files
         run: |
           echo "Current directory:"
