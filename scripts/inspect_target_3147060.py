@@ -10,7 +10,7 @@ APP_ID = os.environ.get("ESTAT_APP_ID")
 if not APP_ID:
     raise RuntimeError("ESTAT_APP_ID が設定されていません。GitHub Secretsを確認してください。")
 
-STATS_DATA_ID = "3147060"
+STATS_DATA_ID = "0003147060"
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
