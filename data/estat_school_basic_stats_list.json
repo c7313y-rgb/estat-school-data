@@ -1,0 +1,4223 @@
+{
+  "GET_STATS_LIST": {
+    "RESULT": {
+      "STATUS": 0,
+      "ERROR_MSG": "正常に終了しました。",
+      "DATE": "2026-05-19T17:11:12.864+09:00"
+    },
+    "PARAMETER": {
+      "LANG": "J",
+      "STATS_CODE": "00400001",
+      "SEARCH_WORD": "学校基本調査",
+      "DATA_FORMAT": "J",
+      "LIMIT": 100
+    },
+    "DATALIST_INF": {
+      "NUMBER": 7801,
+      "RESULT_INF": {
+        "FROM_NUMBER": 1,
+        "TO_NUMBER": 100,
+        "NEXT_KEY": 101
+      },
+      "TABLE_INF": [
+        {
+          "@id": "0003061540",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 総括",
+          "TITLE": {
+            "@no": "1",
+            "$": "総括"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 526,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "総括"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "総括"
+          }
+        },
+        {
+          "@id": "0003015869",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "1",
+            "$": "都道府県別　学校数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-07",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学校数"
+          }
+        },
+        {
+          "@id": "0003061522",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "10",
+            "$": "種類別　７５条の学級児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 224,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "種類別　７５条の学級児童数"
+          }
+        },
+        {
+          "@id": "0003061523",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "11",
+            "$": "外国人児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 4,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "外国人児童数"
+          }
+        },
+        {
+          "@id": "0003061524",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "12",
+            "$": "理由別　長期欠席児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "理由別　長期欠席児童数"
+          }
+        },
+        {
+          "@id": "0003061525",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "13",
+            "$": "帰国子女数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 80,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061526",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "13",
+            "$": "帰国子女数（都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061527",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "14",
+            "$": "職名別　教員数（本務者）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 3648,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（本務者）"
+          }
+        },
+        {
+          "@id": "0003061528",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "15",
+            "$": "職名別　教員数（兼務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 76,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061529",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "15",
+            "$": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 912,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061530",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "16",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 48,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061531",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "16",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 576,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059469",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "17",
+            "$": "本務教員のうち指導主事等の数（公立）（再掲）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 144,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち指導主事等の数（公立）（再掲）"
+          }
+        },
+        {
+          "@id": "0003061532",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "18",
+            "$": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 52,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061533",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "18",
+            "$": "本務教職員のうち教務主任等の数（再掲）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 624,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教職員のうち教務主任等の数（再掲）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061534",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "19",
+            "$": "職員数（本務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 156,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職員数（本務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061535",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "19",
+            "$": "職員数（本務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1872,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職員数（本務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003016281",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "2",
+            "$": "都道府県別　学級数別　学校数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-10",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 2726,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003016282",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "2",
+            "$": "都道府県別　学級数別　学校数（うち公立-本校　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-10",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 2784,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（うち公立-本校　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003016283",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "2",
+            "$": "都道府県別　学級数別　学校数（本校・分校別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 174,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（本校・分校別）"
+          }
+        },
+        {
+          "@id": "0003016284",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "2",
+            "$": "都道府県別　学級数別　学校数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 174,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061536",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "20",
+            "$": "私費負担の職員数（国・公立の本務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 15,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "私費負担の職員数（国・公立の本務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061537",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "20",
+            "$": "私費負担の職員数（国・公立の本務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 240,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "私費負担の職員数（国・公立の本務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061538",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "21",
+            "$": "学校医等の数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 12,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学校医等の数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061539",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "21",
+            "$": "学校医等の数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 144,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学校医等の数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059478",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "22",
+            "$": "へき地等指定学校数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校数（公立）"
+          }
+        },
+        {
+          "@id": "0003059479",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "23",
+            "$": "へき地等指定学校の児童数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の児童数（公立）"
+          }
+        },
+        {
+          "@id": "0003059480",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "24",
+            "$": "へき地等指定学校の教員数（公立の本務者）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の教員数（公立の本務者）"
+          }
+        },
+        {
+          "@id": "0003059481",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "25",
+            "$": "へき地等指定学校の負担法による事務職員数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 768,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の負担法による事務職員数（公立）"
+          }
+        },
+        {
+          "@id": "0003059800",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "26",
+            "$": "指定都市等に所在する学校数・学級数・児童数及び教職員数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1020,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "指定都市等に所在する学校数・学級数・児童数及び教職員数"
+          }
+        },
+        {
+          "@id": "0003016262",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "3",
+            "$": "類型別　学校数（複式学級等）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-10",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 40,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "類型別　学校数（複式学級等）"
+          }
+        },
+        {
+          "@id": "0003016263",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "3",
+            "$": "類型別　学校数（学校医等）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-10",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 32,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "類型別　学校数（学校医等）"
+          }
+        },
+        {
+          "@id": "0003016266",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "3",
+            "$": "類型別　学校数（保健主事等）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-10",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 48,
+          "UPDATED_DATE": "2012-03-02",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "類型別　学校数（保健主事等）"
+          }
+        },
+        {
+          "@id": "0003061511",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "4",
+            "$": "都道府県別  児童数別  学校数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 162,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別  児童数別  学校数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061512",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "4",
+            "$": "都道府県別  児童数別  学校数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 2592,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別  児童数別  学校数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061513",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "5",
+            "$": "編制方式別　学級数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 88,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "編制方式別　学級数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061514",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "5",
+            "$": "編制方式別　学級数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1056,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "編制方式別　学級数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061515",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "6",
+            "$": "収容人員別　学級数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 112,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061516",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "6",
+            "$": "収容人員別　学級数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 672,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061517",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "6",
+            "$": "収容人員別　学級数（再掲）（うち国立私立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 96,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（再掲）（うち国立私立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003009751",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "7",
+            "$": "学年別　児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 2688,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　児童数"
+          }
+        },
+        {
+          "@id": "0003061518",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "8",
+            "$": "学級編制方式別　児童数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 88,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学級編制方式別　児童数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061519",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "8",
+            "$": "学級編制方式別　児童数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1056,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学級編制方式別　児童数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003061520",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "9",
+            "$": "学年別　７５条の学級児童数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 28,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　７５条の学級児童数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003061521",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "9",
+            "$": "学年別　７５条の学級児童数（都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 336,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　７５条の学級児童数（都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059823",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "28",
+            "$": "都道府県別　学級数別　学校数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 198,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059824",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "28",
+            "$": "都道府県別　学級数別　学校数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 3168,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学級数別　学校数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003058583",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "29",
+            "$": "中高一貫教育を行う学校数（再掲）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1920,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "中高一貫教育を行う学校数（再掲）"
+          }
+        },
+        {
+          "@id": "0003059825",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "30",
+            "$": "類型別　学校数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 104,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "類型別　学校数"
+          }
+        },
+        {
+          "@id": "0003059826",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "31",
+            "$": "都道府県別  生徒数別  学校数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 162,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別  生徒数別  学校数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059827",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "31",
+            "$": "都道府県別  生徒数別  学校数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 2592,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別  生徒数別  学校数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059828",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "32",
+            "$": "編制方式別　学級数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 64,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "編制方式別　学級数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059829",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "32",
+            "$": "編制方式別　学級数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 768,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "編制方式別　学級数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059830",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "33",
+            "$": "収容人員別　学級数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 98,
+          "UPDATED_DATE": "2019-10-28",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059831",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "33",
+            "$": "収容人員別　学級数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 672,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059832",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "33",
+            "$": "収容人員別　学級数（再掲）（うち国立私立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 96,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "収容人員別　学級数（再掲）（うち国立私立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003058592",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "34",
+            "$": "学年別　生徒数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1728,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　生徒数"
+          }
+        },
+        {
+          "@id": "0003059833",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "35",
+            "$": "学級編制方式別　生徒数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 64,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学級編制方式別　生徒数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059834",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "35",
+            "$": "学級編制方式別　生徒数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 768,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学級編制方式別　生徒数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059835",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "36",
+            "$": "学年別　７５条の学級生徒数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 16,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　７５条の学級生徒数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059836",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "36",
+            "$": "学年別　７５条の学級生徒数（都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 192,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学年別　７５条の学級生徒数（都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059853",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "37",
+            "$": "種類別　７５条の学級生徒数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 128,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "種類別　７５条の学級生徒数"
+          }
+        },
+        {
+          "@id": "0003059854",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "38",
+            "$": "外国人生徒数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 4,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "外国人生徒数"
+          }
+        },
+        {
+          "@id": "0003059855",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "39",
+            "$": "帰国子女数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 56,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059856",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "39",
+            "$": "帰国子女数（都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 672,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（都道府県別）"
+          }
+        },
+        {
+          "@id": "0003058601",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "40",
+            "$": "理由別　長期欠席生徒数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "理由別　長期欠席生徒数"
+          }
+        },
+        {
+          "@id": "0003058602",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "41",
+            "$": "職名別　教員数（本務者）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 3648,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（本務者）"
+          }
+        },
+        {
+          "@id": "0003059857",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "42",
+            "$": "職名別　教員数（兼務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 76,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059858",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "42",
+            "$": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 912,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059859",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "43",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 48,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059860",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "43",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 576,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003058607",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "44",
+            "$": "本務教員のうち指導主事等の数（公立）（再掲）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 144,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち指導主事等の数（公立）（再掲）"
+          }
+        },
+        {
+          "@id": "0003059861",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "45",
+            "$": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 60,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059862",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "45",
+            "$": "本務教職員のうち教務主任等の数（再掲）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 720,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教職員のうち教務主任等の数（再掲）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059863",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "46",
+            "$": "職員数（本務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 156,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職員数（本務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059864",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "46",
+            "$": "職員数（本務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1872,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職員数（本務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059865",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "47",
+            "$": "私費負担の職員数（国・公立の本務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 15,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "私費負担の職員数（国・公立の本務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059866",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "47",
+            "$": "私費負担の職員数（国・公立の本務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 240,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "私費負担の職員数（国・公立の本務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003059867",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "48",
+            "$": "学校医等の数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 12,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学校医等の数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003059868",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "48",
+            "$": "学校医等の数（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 144,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "学校医等の数（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003058616",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "49",
+            "$": "へき地等指定学校数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校数（公立）"
+          }
+        },
+        {
+          "@id": "0003058617",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "50",
+            "$": "へき地等指定学校の生徒数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の生徒数（公立）"
+          }
+        },
+        {
+          "@id": "0003058618",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "51",
+            "$": "へき地等指定学校の教員数（公立の本務者）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 816,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の教員数（公立の本務者）"
+          }
+        },
+        {
+          "@id": "0003058619",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "52",
+            "$": "へき地等指定学校の負担法による事務職員数（公立）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 768,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "へき地等指定学校の負担法による事務職員数（公立）"
+          }
+        },
+        {
+          "@id": "0003059869",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": {
+            "@no": "53",
+            "$": "指定都市等に所在する学校数・学級数・生徒数及び教職員数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200604-200703",
+          "OPEN_DATE": "2006-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 969,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "指定都市等に所在する学校数・学級数・生徒数及び教職員数"
+          }
+        },
+        {
+          "@id": "0003015880",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１８年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 中学校",
+          "TITLE": "都道府県別学校数",
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-07",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1002,
+          "UPDATED_DATE": "2010-09-07",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１８年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "中学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別学校数"
+          }
+        },
+        {
+          "@id": "0003058572",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 総括",
+          "TITLE": {
+            "@no": "1",
+            "$": "総括"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2007-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 430,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "総括"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "総括"
+          }
+        },
+        {
+          "@id": "0003004412",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "1",
+            "$": "都道府県別　学校数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 0,
+          "OPEN_DATE": "2008-08-15",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2012-03-01",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "都道府県別　学校数"
+          }
+        },
+        {
+          "@id": "0003045837",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "10",
+            "$": "種類別　特別支援学級児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 224,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "種類別　特別支援学級児童数"
+          }
+        },
+        {
+          "@id": "0003045838",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "11",
+            "$": "外国人児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 4,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "外国人児童数"
+          }
+        },
+        {
+          "@id": "0003046048",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "12",
+            "$": "理由別　長期欠席児童数"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "理由別　長期欠席児童数"
+          }
+        },
+        {
+          "@id": "0003046177",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "13",
+            "$": "帰国子女数（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 80,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（設置者別）"
+          }
+        },
+        {
+          "@id": "0003046178",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "13",
+            "$": "帰国子女数（都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 960,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "帰国子女数（都道府県別）"
+          }
+        },
+        {
+          "@id": "0003045979",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "14",
+            "$": "職名別　教員数（本務者）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 4224,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（本務者）"
+          }
+        },
+        {
+          "@id": "0003045980",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "15",
+            "$": "職名別　教員数（兼務者）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 88,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003045981",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "15",
+            "$": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 1056,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "職名別　教員数（兼務者）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003045982",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "16",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 48,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（設置者別）"
+          }
+        },
+        {
+          "@id": "0003045983",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "16",
+            "$": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 576,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち理由別休職等教員数（再掲）（うち公立　都道府県別）"
+          }
+        },
+        {
+          "@id": "0003046049",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "17",
+            "$": "本務教員のうち指導主事等の数（公立）（再掲）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 144,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教員のうち指導主事等の数（公立）（再掲）"
+          }
+        },
+        {
+          "@id": "0003061547",
+          "STAT_NAME": {
+            "@code": "00400001",
+            "$": "学校基本調査"
+          },
+          "GOV_ORG": {
+            "@code": "00400",
+            "$": "文部科学省"
+          },
+          "STATISTICS_NAME": "学校基本調査 平成１９年度 初等中等教育機関・専修学校・各種学校《報告書掲載集計》 学校調査・学校通信教育調査（高等学校） 小学校",
+          "TITLE": {
+            "@no": "18",
+            "$": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": "200704-200803",
+          "OPEN_DATE": "2008-12-21",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "12",
+            "$": "教育・文化・スポーツ・生活"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "学校教育"
+          },
+          "OVERALL_TOTAL_NUMBER": 52,
+          "UPDATED_DATE": "2023-10-25",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "学校基本調査",
+            "TABULATION_SUB_CATEGORY1": "平成１９年度",
+            "TABULATION_SUB_CATEGORY2": "初等中等教育機関・専修学校・各種学校《報告書掲載集計》",
+            "TABULATION_SUB_CATEGORY3": "学校調査・学校通信教育調査（高等学校）",
+            "TABULATION_SUB_CATEGORY4": "小学校"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "本務教職員のうち教務主任等の数（再掲）（設置者別）"
+          }
+        }
+      ]
+    }
+  }
+}
