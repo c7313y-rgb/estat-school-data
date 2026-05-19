@@ -44,7 +44,11 @@ jobs:
           ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: |
           python scripts/search_latest_school_tables.py
-
+      - name: Inspect candidate tables
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: |
+          python scripts/inspect_candidate_tables.py
       - name: Check generated files
         run: |
           echo "Current directory:"
